@@ -3,5 +3,7 @@ function BoardMembers(name, homeState, training){
   this.homeState = homeState;
   this.training = training;
   
-  this.veto = function()
+  this.veto = function(){
+    return "No, I myst diagree"
+  }
 }
